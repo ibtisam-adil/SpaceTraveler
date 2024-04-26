@@ -17,7 +17,7 @@ const Navbar = () => (
       </div>
       <div className="links-seperator" />
       <div className="link">
-        Your Profile
+        My Profile
       </div>
     </div>
   </nav>
