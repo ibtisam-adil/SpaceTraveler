@@ -10,6 +10,68 @@ html {
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
   margin: 0;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1024px) {
+  nav .nav-h {
+    font-size: 2.2rem;
+  }
+
+  nav .component-links {
+    gap: 2.2rem;
+  }
+
+  .main .rocket-img {
+    width: 28%;
+  }
+
+  .rocket-data .description {
+    line-height: 2.4rem;
+    font-size: 1.4rem;
+  }
+
+  .rocket-data .reserve-btn,
+  .cancel-btn {
+    padding: 1.1rem 2.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .img-h .img {
+    height: 3rem;
+  }
+
+  nav .nav-h {
+    font-size: 1.6rem;
+  }
+
+  nav .component-links {
+    gap: 1rem;
+  }
+
+  .component-links .link {
+    font-size: 1.2rem;
+  }
+
+  .rocket-container .main {
+    flex-direction: column;
+  }
+
+  .main .rocket-img {
+    width: 36%;
+  }
 }
