@@ -1,5 +1,5 @@
 import './navbar.css';
-// import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from '../../assets/planet.png';
 
 const Navbar = () => (
@@ -9,16 +9,16 @@ const Navbar = () => (
       <h2 className="nav-h">Space Traveller&apos;s Hub</h2>
     </div>
     <div className="component-links">
-      <div className="link active">
+      <NavLink to="/rockets" className="link" activeClassName="active">
         Rockets
-      </div>
+      </NavLink>
       <div className="link">
         Missions
       </div>
       <div className="links-seperator" />
-      <div className="link">
+      <NavLink to="/profile" className="link" activeClassName="active">
         My Profile
-      </div>
+      </NavLink>
     </div>
   </nav>
 );
