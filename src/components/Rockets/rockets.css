@@ -36,7 +36,8 @@
   padding: 5px;
 }
 
-.reserve-btn, .cancel-btn {
+.reserve-btn,
+.cancel-btn {
   background-color: #2673f7;
   border: none;
   color: #fff;
