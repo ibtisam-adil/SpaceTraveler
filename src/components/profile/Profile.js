@@ -1,7 +1,7 @@
 import './profile.css';
 
 const Profile = () => (
-  <div>Profile</div>
+  <div className="profile">Profile</div>
 );
 
 export default Profile;
