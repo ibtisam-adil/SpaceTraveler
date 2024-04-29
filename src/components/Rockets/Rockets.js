@@ -9,8 +9,10 @@ const Rockets = () => {
     dispatch(getRocketData());
   }, [dispatch]);
   const rockets = useSelector((state) => state.rocketReducer.rockets);
+  const status = useSelector((state) => state.rocketReducer.status);
   return (
     <div className="rocket-container">
+      {status && <div className="loading">Loading...</div>}
       {rockets.map((rocket) => (
         <div key={rocket.id} className="main">
           <img

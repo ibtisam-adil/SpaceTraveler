@@ -46,3 +46,9 @@
   font-size: 1.5rem;
   margin-top: 2rem;
 }
+
+.loading {
+  display: grid;
+  place-items: center;
+  font-size: 5rem;
+}
