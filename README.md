@@ -71,7 +71,7 @@ Welcome to the Space Travelers' Hub, a web application designed for booking rock
 
 [@SPACE_TRAVELER'S HUB](https://starfarerhub.netlify.app/)
 
-This is live version of my protfolio project.you can click on this link to watch live demo
+This is live version of my SpaceTraveler project.you can click on this link to watch live demo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
