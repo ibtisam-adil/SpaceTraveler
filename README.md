@@ -69,7 +69,7 @@ Welcome to the Space Travelers' Hub, a web application designed for booking rock
 
 ## 🚀 Live Demo <a name="Space Traveler"></a>
 
-[@my portfolio app](https://starfarerhub.netlify.app/)
+[@SPACE_TRAVELER'S HUB](https://starfarerhub.netlify.app/)
 
 This is live version of my protfolio project.you can click on this link to watch live demo
 
