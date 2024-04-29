@@ -26,7 +26,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 🎬 SPACE TRAVELLER'S HUB <a name="about-project"></a>
+# 🎬 SPACE TRAVELER'S HUB <a name="about-project"></a>
 
 Welcome to the Space Travelers' Hub, a web application designed for booking rockets, joining space missions, and exploring the wonders of space travel. Developed as a React & Redux group project, this application serves as a comprehensive learning experience while delivering practical functionalities.
 
@@ -67,9 +67,9 @@ Welcome to the Space Travelers' Hub, a web application designed for booking rock
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="To-do List"></a>
+## 🚀 Live Demo <a name="Space Traveler"></a>
 
-[@my portfolio app](https://ibtisam-bookstore.netlify.app/)
+[@my portfolio app](https://starfarerhub.netlify.app/)
 This is live version of my protfolio project.you can click on this link to watch live demo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
