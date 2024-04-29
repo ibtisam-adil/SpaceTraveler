@@ -70,6 +70,7 @@ Welcome to the Space Travelers' Hub, a web application designed for booking rock
 ## 🚀 Live Demo <a name="Space Traveler"></a>
 
 [@my portfolio app](https://starfarerhub.netlify.app/)
+
 This is live version of my protfolio project.you can click on this link to watch live demo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -88,7 +89,7 @@ Step 1: if you don't have git installed on your machine you can download it from
 
 Once you have git installed on your machine you can clone your project by running the command below to clone your project to your local machine
 
-`git clone https://github.com/ibtisam-adil/bookstore.git`
+`git clone https://github.com/ibtisam-adil/SpaceTraveller.git`
 
 Alternatively, you can download the zip file of your project by clicking on the `Code` button on the right side of your project page and clicking on `Download ZIP`
 
