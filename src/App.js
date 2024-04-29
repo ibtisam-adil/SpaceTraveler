@@ -1,12 +1,12 @@
-import './App.css';
-import Navbar from './components/navbar/Navbar';
+import React from 'react';
+// import Navbar from './components/navbar/Navbar';
+import Mission from './components/navbar/mission/Mission';
 
-function App() {
-  return (
-    <div className="App">
-      <Navbar />
-    </div>
-  );
-}
+const App = () => (
+  <div>
+    {/* <Navbar /> */}
+    <Mission />
+  </div>
+);
 
 export default App;
