@@ -38,7 +38,7 @@ const rocketSlice = createSlice({
         state.status = true;
       })
       .addCase(getRocketData.fulfilled, (state, action) => {
-        state.status = true;
+        state.status = false;
         state.rockets = action.payload;
       })
       .addCase(getRocketData.rejected, (state) => {
