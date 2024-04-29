@@ -1,10 +1,10 @@
 import React from 'react';
-// import Navbar from './components/navbar/Navbar';
+import Navbar from './components/navbar/Navbar';
 import Mission from './components/navbar/mission/Mission';
 
 const App = () => (
   <div>
-    {/* <Navbar /> */}
+    <Navbar />
     <Mission />
   </div>
 );
