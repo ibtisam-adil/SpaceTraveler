@@ -11,7 +11,7 @@ const Mission = () => {
 
   useEffect(() => {
     dispatch(fetchMission());
-  }, []);
+  }, [dispatch]);
 
   if (isLoading) {
     return <div>Loading...</div>;

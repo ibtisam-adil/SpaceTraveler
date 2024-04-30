@@ -2,7 +2,6 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 export const fetchMission = createAsyncThunk('fetch/data', async () => {
-  console.log('i am try');
   try {
     const response = await axios.get('https://api.spacexdata.com/v3/missions');
     const data = response.data.map((e) => ({ ...e, isReserved: false }));
