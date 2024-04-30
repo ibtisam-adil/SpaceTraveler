@@ -1,70 +1,137 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- TABLE OF CONTENTS -->
 
-## Available Scripts
+# 📗 Table of Contents
 
-In the project directory, you can run:
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-### `npm start`
+<!-- PROJECT DESCRIPTION -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 🎬 SPACE TRAVELER'S HUB <a name="about-project"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Welcome to the Space Travelers' Hub, a web application designed for booking rockets, joining space missions, and exploring the wonders of space travel. Developed as a React & Redux group project, this application serves as a comprehensive learning experience while delivering practical functionalities.
 
-### `npm test`
+## 🛠 Built With <a name="built-with"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-### `npm run build`
+<!-- LEARNING OBJECT -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Learning Objectives
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Utilize React documentation, components, props, hooks, and best practices.
+- Integrate React Router for seamless navigation.
+- Implement Redux for state management, including actions, reducers, and the store.
+- Conduct event handling and UI rendering in a React app.
+- Write unit tests with React Testing Library.
+- Apply CSS styling and HTML/CSS best practices.
+- Collaborate effectively through Gitflow and code reviews.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- Features -->
 
-### `npm run eject`
+### Key Features <a name="key-features"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> Describe between 1-3 key features of the application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Rockets & Missions:** Access a list of available SpaceX rockets and ongoing missions, complete with detailed descriptions and reservation options.
+- **My Profile:** View a personalized profile showcasing reserved rockets, joined missions, and other space adventures.
+- **Interactive Reservation:** Reserve rockets or dragons (if applicable) and join exciting missions with just a click.
+- **Dynamic UI Rendering:** Experience conditional rendering for reserved items and joined missions, ensuring a seamless user experience.
+- **Technical Setup:** Utilize GitHub for repository management, React and Redux for state management, and React Testing Library and Jest for testing.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- LIVE DEMO -->
 
-## Learn More
+## 🚀 Live Demo <a name="Space Traveler"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[@SPACE_TRAVELER'S HUB](https://starfarerhub.netlify.app/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This is live version of my SpaceTraveler project.you can click on this link to watch live demo
 
-### Code Splitting
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- GETTING STARTED -->
 
-### Analyzing the Bundle Size
+## 💻 Getting Started <a name="getting-started"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To get a local copy up and running, follow these steps.
 
-### Making a Progressive Web App
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+In order to run this project you need:
 
-### Advanced Configuration
+Step 1: if you don't have git installed on your machine you can download it from [here](https://git-scm.com/downloads).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Once you have git installed on your machine you can clone your project by running the command below to clone your project to your local machine
 
-### Deployment
+`git clone https://github.com/ibtisam-adil/SpaceTraveller.git`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Alternatively, you can download the zip file of your project by clicking on the `Code` button on the right side of your project page and clicking on `Download ZIP`
 
-### `npm run build` fails to minify
+Step 2: Locate the folder where you cloned your project to and open the `index.html` file in your browser to view your project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Author <a name="authors"></a>
+
+👤 **IBTISAM ADIL**
+
+- GitHub: [@ibtisam-adil](https://github.com/ibtisam-adil)
+- Twitter: [@ibtisam_adil](https://twitter.com/Ibtisam__adil)
+- LinkedIn: [@ibtisamadil](http://www.linkedin.com/in/ibtisamadil)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+**please show your support to improve my skills .this will help me to work hard**
+Give a ⭐️ if you like this project!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./license.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -1,18 +1,25 @@
 import React from 'react';
 import logo from '../../assets/planet.png';
 import './navbar.css';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => (
   <nav>
     <div className="img-h">
       <img src={logo} alt="logo" className="img" />
-      <h2 className="nav-h">Space Traveller&apos;s Hub</h2>
+      <h2 className="nav-h">Space Traveler&apos;s Hub</h2>
     </div>
     <div className="component-links">
-      <div className="link active">Rockets</div>
-      <div className="link">Missions</div>
+      <NavLink to="/rockets" className="link" activeClassName="active">
+        Rockets
+      </NavLink>
+      <div className="link">
+        Missions
+      </div>
       <div className="links-seperator" />
-      <div className="link">My Profile</div>
+      <NavLink to="/profile" className="link" activeClassName="active">
+        My Profile
+      </NavLink>
     </div>
   </nav>
 );
