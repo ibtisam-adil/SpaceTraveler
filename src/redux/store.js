@@ -7,6 +7,7 @@ const store = configureStore({
     rocketReducer,
     missionReducer,
   },
+  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger),
 });
 
 export default store;
