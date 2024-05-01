@@ -36,6 +36,7 @@
 
 .name {
   width: 10%;
+  font-size: 1.7vw; 
 }
 
 .para {
@@ -44,9 +45,6 @@
   font-size: 1vw;
 }
 
-/* .mission-table tr :nth-child(2) {
-  width: 85%;
-} */
 
 tbody tr :nth-child(2) {
   text-align: justify;
@@ -59,12 +57,11 @@ td p {
   color: red;
 }
 
-td button {
-  background-color: #a7f5f8;
-
-  /* width: 100px; */
+td button{
+  background-color: #A7F5F8;
   padding: 5px 5px;
   border: 2px solid rgb(14, 137, 186);
+  font-size: 15px;
 }
 
 @media (max-width: 1024px) {
@@ -72,5 +69,18 @@ td button {
   .name,
   .para {
     font-size: 1.2vw;
+  }
+
+  td button{
+    font-size: 13px;
+    padding: 0;
+  }
+}
+
+@media (max-width:768px) {
+
+  td button{
+    font-size: 11px;
+
   }
 }
