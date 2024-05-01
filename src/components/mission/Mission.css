@@ -36,7 +36,7 @@
 
 .name {
   width: 10%;
-  font-size: 1.7vw; 
+  font-size: 1.7vw;
 }
 
 .para {
@@ -44,7 +44,6 @@
   padding: 0 1%;
   font-size: 1vw;
 }
-
 
 tbody tr :nth-child(2) {
   text-align: justify;
@@ -57,11 +56,15 @@ td p {
   color: red;
 }
 
-td button{
-  background-color: #A7F5F8;
+td button {
+  background-color: #a7f5f8;
   padding: 5px 5px;
   border: 2px solid rgb(14, 137, 186);
   font-size: 15px;
+}
+
+.thead {
+  font-size: 1.6rem;
 }
 
 @media (max-width: 1024px) {
@@ -71,16 +74,22 @@ td button{
     font-size: 1.2vw;
   }
 
-  td button{
+  td button {
     font-size: 13px;
     padding: 0;
   }
+
+  .thead {
+    font-size: 1.1rem;
+  }
 }
 
-@media (max-width:768px) {
-
-  td button{
+@media (max-width: 768px) {
+  td button {
     font-size: 11px;
+  }
 
+  .thead {
+    font-size: 0.85rem;
   }
 }
