@@ -5,7 +5,7 @@ import './App.css';
 import Navbar from './components/navbar/Navbar';
 import Rockets from './components/Rockets/Rockets';
 import Profile from './components/profile/Profile';
-import Mission from './components/navbar/mission/Mission';
+import Mission from './components/mission/Mission';
 
 function App() {
   return (
