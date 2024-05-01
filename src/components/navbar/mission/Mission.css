@@ -1,0 +1,76 @@
+.main-table {
+  padding: 10px 6%;
+  text-align: center;
+}
+
+.mission-table {
+  max-width: 1470px;
+  margin: auto;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.mission-table th {
+  border: 1px solid black;
+  padding: 30px;
+  width: 12%;
+  text-align: center;
+}
+
+.mission-table td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.joinM {
+  width: 10%;
+  padding: 0 1%;
+  font-size: 1vw;
+}
+
+.desc {
+  width: 65%;
+  padding: 2%;
+  font-size: 1.5vw;
+}
+
+.name {
+  width: 10%;
+}
+
+.para {
+  width: 10%;
+  padding: 0 1%;
+  font-size: 1vw;
+}
+
+/* .mission-table tr :nth-child(2) {
+  width: 85%;
+} */
+
+tbody tr :nth-child(2) {
+  text-align: justify;
+}
+
+td p {
+  background-color: #ff7d62;
+  padding: 5px 5px;
+  border: 2px solid red;
+  color: red;
+}
+
+td button {
+  background-color: #a7f5f8;
+
+  /* width: 100px; */
+  padding: 5px 5px;
+  border: 2px solid rgb(14, 137, 186);
+}
+
+@media (max-width: 1024px) {
+  .desc,
+  .name,
+  .para {
+    font-size: 1.2vw;
+  }
+}

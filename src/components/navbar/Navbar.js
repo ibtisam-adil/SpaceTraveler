@@ -1,6 +1,7 @@
-import './navbar.css';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../../assets/planet.png';
+import './navbar.css';
 
 const Navbar = () => (
   <nav>
@@ -12,9 +13,9 @@ const Navbar = () => (
       <NavLink to="/rockets" className="link" activeClassName="active">
         Rockets
       </NavLink>
-      <div className="link">
+      <NavLink to="/mission" className="link">
         Missions
-      </div>
+      </NavLink>
       <div className="links-seperator" />
       <NavLink to="/profile" className="link" activeClassName="active">
         My Profile
