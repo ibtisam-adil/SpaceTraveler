@@ -29,7 +29,7 @@ const Mission = () => {
             <th>Mission</th>
             <th>description</th>
             <th>Status</th>
-            <th>hyy</th>
+            <th>join/leave</th>
           </tr>
         </thead>
 
