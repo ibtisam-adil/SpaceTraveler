@@ -104,7 +104,7 @@ Step 2: Locate the folder where you cloned your project to and open the `index.h
 👤 **IBTISAM ADIL**
 
 - GitHub: [@ibtisam-adil](https://github.com/ibtisam-adil)
-- Twitter: [@ibtisam_adil](https://twitter.com/Ibtisam__adil)
+- Twitter: [@ibtisam__adil](https://twitter.com/Ibtisam__adil)
 - LinkedIn: [@ibtisamadil](http://www.linkedin.com/in/ibtisamadil)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
